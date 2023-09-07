@@ -143,13 +143,6 @@ $(document).ready(function () {
     $('.comments__slider').on("afterChange", function(event, slick){
         updateCommentSliderCounter(slick);
     });
-
-
-    
 });
 
-initSlick();
-$( window ).on('resize',function() {
-initSlick();
-});
 
