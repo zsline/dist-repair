@@ -33,7 +33,8 @@ $(document).ready(function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         dots:false,
-        arrows:false,
+        nextArrow: document.querySelector('.types__slider-next-btn'),
+        prevArrow: document.querySelector('.types__slider-prev-btn'),
         responsive: [
             {
                 breakpoint: 1000,
@@ -86,6 +87,13 @@ $(document).ready(function () {
         centerMode: true,
         variableWidth: true,
         responsive: [
+            {
+                breakpoint: 610,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 3
+                }
+            },
             {
                 breakpoint: 480,
                 settings: {
