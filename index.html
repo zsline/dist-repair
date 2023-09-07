@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/libs/slick.css">
-    <!-- <link rel="stylesheet" href="css/libs/slick-theme.css"> -->
     <link rel="stylesheet" href="css/style.min.css?_v=20230906161754">
     <title>Главная</title>
 </head>
@@ -86,9 +85,10 @@
                         <p>Мы решаем ваши проблемы с ремонтом, а не создаем их!</p>
                     </div>
                     <div class="offer__gorisont">
-                        <button class="btn">
+                        
+                        <a href="#popup" class="btn">
                             записаться на бесплатный* осмотр
-                        </button>
+                        </a>
                         <div class="offer__line">
                             <div class="offer__line-persons">
                                 <span class="accent y-color">Дмитрий</span>
@@ -213,7 +213,7 @@
                         <p>даем гарантию на работы 1 год выбору материалов</p>
                     </div>
                 </div>
-                <button class="advantages__btn btn center">мне подходит!</button>
+                <a href="#popup" class="advantages__btn btn center">мне подходит!</a>
             </div>
         </section>
         <section id="works" class="works">
@@ -427,7 +427,7 @@
                         <p>вы принимаете работу и только после этого оплачиваете!</p>
                     </div>
                 </div>
-                <button class="stage__btn btn block center">записаться на осмотр</button>
+                <a href="#popup" class="stage__btn btn block center">записаться на осмотр</a>
             </div>
         </section>
         <section id="comments" class="comments">
@@ -488,7 +488,7 @@
                         <span>Заполните форму и мы с Вами свяжемся</span>
                     </div>
                     <div class="feedback__entry-btn">
-                        <button class="feedback__btn btn">Обратная связь</button>
+                        <a href="#popup" class="feedback__btn btn">Обратная связь</a>
                     </div>
                 </div>
                 <picture>
@@ -576,7 +576,7 @@
                         <li><a href="#comments">Отзывы</a></li>
                         <li><a href="#faq">Вопросы</a></li>
                     </ul>
-                    <button class="btn footer__btn">записаться на бесплатный осмотр</button>
+                    <a href="#popup" class="btn footer__btn">записаться на бесплатный осмотр</a>
                     <div class="footer__roller">
                         <picture>
                             <source srcset="img/paint-roller.webp" type="image/webp"><img src="img/paint-roller.png"
@@ -587,6 +587,20 @@
             </div>
         </div>
     </footer>
+<div id="popup" class="popup">
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#" class="popup__close">X</a>
+            <div class="popup__title">
+                Модальное окно
+            </div>
+            <div class="popup__text">
+                текст для модального окна
+            </div>
+        </div>
+    </div>
+</div>
+   
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/app.min.js"></script>
