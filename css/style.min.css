@@ -1204,6 +1204,7 @@ img {
     right: 80px;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
+    display: none;
     z-index: 900
 }
 
