@@ -589,7 +589,6 @@ img {
 .advantages__info {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-top: 40px
@@ -1276,8 +1275,6 @@ img {
 
 @media (max-width:1440px) {
     .stage__wrapper {
-        -ms-grid-rows: (1fr)[6];
-        -ms-grid-columns: (1fr)[1];
         grid-template: repeat(6, 1fr)/repeat(1, 1fr)
     }
 
@@ -1370,8 +1367,6 @@ img {
 
 @media (max-width:860px) {
     .footer__menu ul {
-        -ms-grid-rows: (1fr)[6]; */
-        -ms-grid-columns: (1fr)[1];
         grid-template: repeat(6, 1fr)/repeat(1, 1fr)
     }
 }
@@ -1615,9 +1610,6 @@ img {
         width: 100%;
         justify-content: space-between;
         padding: 0 10px; 
-    }
-    .numbers_slider{
-        /* position: relative; */
     }
     .numbers__slider-btns{
         justify-content: space-between;
