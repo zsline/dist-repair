@@ -913,7 +913,15 @@ img {
     margin-right: 20px;
 }
 @media (max-width:540px) {
- 
+    .offer__title{
+        transform: translateY(-160px) !important;
+
+    }
+    .offer__subtitle{
+        transform: translateY(-170px) !important;
+
+    }
+
 }
 
 .comments__slider-item img {
